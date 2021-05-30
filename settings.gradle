@@ -1,0 +1,4 @@
+rootProject.name = 'sample-spring-graphql'
+
+include 'leangen'
+include 'netflix'
