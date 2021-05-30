@@ -1,0 +1,17 @@
+type Query {
+    find(id: ID): Author
+    findAll: [Author]
+}
+
+type Book {
+    id: ID
+    name: String
+    pageCount: Int
+    authorId: String
+}
+
+type Author {
+    id: ID
+    firstName: String
+    lastName: String
+}
